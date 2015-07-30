@@ -20,6 +20,7 @@ nav ul li {
 
 nav ul li:hover {
 	background-color:#22795f;
+	position:relative;
 }
 
 nav ul {
@@ -36,6 +37,18 @@ nav ul li a {
 	text-decoration:none;
 	color:#fff;
 }
+
+/*============ Submenu ==================*/
+
+ul.submenu li {
+	display:block;
+}
+
+ul.submenu {
+	position:absolute;
+	top:300px;
+}
+
 
 section {
 	line-height:1.5em;
