@@ -74,7 +74,28 @@ html, body {
 	padding:.3rem;
 }
 
+/* ############### Mobile ######################## */
 
+@media only screen and (max-width:890px){
+	ul{
+		width:100%;
+	}
+ 
+	li{
+		width:100%;
+	}
+
+ a{
+		width:100%;
+		background-color:#444;
+	}
+
+	.nav-content{
+		position:relative;
+		width:100%;
+	}
+
+}
 
 
 
